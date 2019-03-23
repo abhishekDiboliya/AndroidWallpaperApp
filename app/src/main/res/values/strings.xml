@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">All In One Wallpapers</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_favourites">Favourites</string>
+    <string name="nav_settings">Settings</string>
+    <string name="string_not_logged_in">You Have To Login First</string>
+    <string name="logout">LogOut</string>
+    <string name="desc">users_image</string>
+    <string name="developer">\"Abhishek Diboliya\"</string>
+    <string name="Developer_Name">Developer Of Application :</string>
+</resources>

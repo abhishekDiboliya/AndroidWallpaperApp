@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "913415818020",
+    "firebase_url": "https://moodwallpapers-bdbb5.firebaseio.com",
+    "project_id": "moodwallpapers-bdbb5",
+    "storage_bucket": "moodwallpapers-bdbb5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913415818020:android:30763f767addfb58",
+        "android_client_info": {
+          "package_name": "com.developerabhi123example.allinonewallpapers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913415818020-07hfvdr34hj00e0ibm9b5rsf48ua2k1s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.developerabhi123example.allinonewallpapers",
+            "certificate_hash": "dc1c948e820974575847a20d2424a66f6abba465"
+          }
+        },
+        {
+          "client_id": "913415818020-pcqc89jmnilppc3mfjsft0fhjlgjk233.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJrBl1JfzIrbo6AHv4OZJUGPoblYpOfRQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913415818020-pcqc89jmnilppc3mfjsft0fhjlgjk233.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

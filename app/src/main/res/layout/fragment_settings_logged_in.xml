@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/login_img">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/user_image_view"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/user_img"
+            app:civ_border_color="#ff7043"
+            app:civ_border_width="5dp"
+            app:civ_shadow="true"
+            app:civ_shadow_radius="10"
+            app:civ_shadow_color="#607d8b"
+            />
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:text="Abhishek Diboliya"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/user_email"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:layout_marginTop="5dp"
+            android:text="developerabhi123@gmail.com"
+            android:textAlignment="center"
+            android:textSize="12.5sp" />
+
+        <TextView
+
+            android:id="@+id/user_logout"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:background="#ffab91"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/ic_logout"
+            android:layout_marginTop="30dp"
+            android:text="@string/logout"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="503dp"
+        android:fontFamily="monospace"
+        android:text="@string/Developer_Name"
+        android:textAlignment="center"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="529dp"
+        android:fontFamily="monospace"
+        android:text="@string/developer"
+        android:textAlignment="center"
+        android:textSize="15sp" />
+
+</RelativeLayout>
